@@ -13,12 +13,12 @@
 
 | Library | Vertical | Decision classes encoded | Primary regulator / rule | Tests · coverage | DOI | Start here |
 |---|---|---|---|---|---|---|
-| [**finserv-agent-audit**](https://github.com/linus10x/finserv-agent-audit) | Cross-vertical financial services | Lending, core FS decisioning | EU AI Act Art. 14 · SR-letters · FCRA | 630 · 93% | [10.5281/zenodo.20434570](https://doi.org/10.5281/zenodo.20434570) | DEFCON + Sovereign-Veto demo |
+| [**finserv-agent-audit**](https://github.com/linus10x/finserv-agent-audit) | Cross-vertical financial services | Lending, core FS decisioning | EU AI Act Art. 14 · SR-letters · FCRA | 722 · 94% | [10.5281/zenodo.20434570](https://doi.org/10.5281/zenodo.20434570) | DEFCON + Sovereign-Veto demo |
 | [**banking-agent-audit**](https://github.com/linus10x/banking-agent-audit) | Banking | Model risk · ECOA/Reg B adverse action · BSA/AML/OFAC | ECOA 12 CFR §1002.9 · FINRA 3110 | 182 · ~99% | [10.5281/zenodo.20564584](https://doi.org/10.5281/zenodo.20564584) | `tests/` ECOA adverse-action |
 | [**payments-agent-audit**](https://github.com/linus10x/payments-agent-audit) | Payments | OFAC screening · BSA/AML · Reg E · rail finality | OFAC · Reg E · rail-finality (AL-PROBE-06) | 183 · 98.97% | [10.5281/zenodo.20592773](https://doi.org/10.5281/zenodo.20592773) | AL-PROBE-06 irreversibility gate |
 | [**payer-agent-audit**](https://github.com/linus10x/payer-agent-audit) | Health-insurance payer | Utilization mgmt · prior auth · claims/appeals | NAIC Model Bulletin (no medical-necessity call) | 156 · 100% | [10.5281/zenodo.20564377](https://doi.org/10.5281/zenodo.20564377) | Funding-type obligation routing |
 | [**private-capital-agent-audit**](https://github.com/linus10x/private-capital-agent-audit) | SEC-registered investment advisers | Best execution · MNPI · custody · marketing · allocation | Advisers Act §206 | 181 · 98.7% | [10.5281/zenodo.20564496](https://doi.org/10.5281/zenodo.20564496) | Golden corpus of real SEC matters |
-| [**cre-agent-audit**](https://github.com/linus10x/cre-agent-audit) | Commercial real estate | Tenant screening · lease provenance · PII residency | Fair-housing · FCRA §607(b) | 336 · 86% | [10.5281/zenodo.20437081](https://doi.org/10.5281/zenodo.20437081) | Fair-Housing Pre-Flight |
+| [**cre-agent-audit**](https://github.com/linus10x/cre-agent-audit) | Commercial real estate | Tenant screening · lease provenance · PII residency | Fair-housing · FCRA §607(b) | 369 · 88% | [10.5281/zenodo.20437081](https://doi.org/10.5281/zenodo.20437081) | Fair-Housing Pre-Flight |
 
 *All six: zero runtime dependencies · `mypy --strict` · SHA-pinned CI · golden corpora of real, primary-sourced enforcement actions. Released as a coordinated family.*
 
@@ -61,4 +61,4 @@ Three controls make each rung a control and not a slide: a **sovereign veto** th
 
 ---
 
-*Authored by Kunjar Bhaduri. Each library is MIT-licensed (one dual MIT OR Apache-2.0), DOI-archived for citation, and maintained as living research. Comments and critique welcome — open an issue on the relevant library.*
+*Authored by Kunjar Bhaduri. Each library is MIT-licensed or dual MIT OR Apache-2.0 (see each repo), DOI-archived for citation, and maintained as living research. Comments and critique welcome — open an issue on the relevant library.*
